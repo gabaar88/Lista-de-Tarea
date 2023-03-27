@@ -1,0 +1,204 @@
+*,
+::before::after {
+    margin: 0;
+    padding: 0;
+}
+body {
+    height: 100vh;
+    background-color: rgb(135, 151, 186);
+}
+nav {
+    margin: 0;
+    padding-top: 6rem;
+}
+h1 {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.5rem;
+    padding: 0;
+    margin: 0;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding-top: 2rem;
+}
+.container {
+    color: aliceblue;
+    background-color: rgb(60, 90, 117);
+    border-radius: 0.5rem;
+    border-style: solid;
+    width: 85%;
+}
+ul {
+    padding: 0;
+    padding-left: 1rem;
+    list-style: none;
+    overflow: auto;
+    height: 9rem;
+    background-color: rgb(60, 90, 117);
+}
+form {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 1rem;
+    margin: 0;
+    height: 5rem;
+}
+input {
+    border: none;
+    border-radius: 0.5rem;
+    width: 78%;
+    height: 3rem;
+}
+.li-container {
+    background-color: white;
+    width: 100%;
+    color: darkslategray;
+    width: 95%;
+  }
+  li {
+    list-style: none;
+    background-color: lightgray;
+    border-radius: 6px;
+    margin-top: 15px;
+    display: flex;
+  }
+  li p {
+    margin: 0;
+   display: flex;
+   align-items: center;
+    width: 100%;
+  }
+  .btn-delete {
+    margin-left: auto;
+    border: none;
+    background-color: #e31746;
+    color: white;
+    font-weight: bold;
+    padding: 5px 7px;
+    outline: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    width: 10%;
+    font-size: 1.2em;
+  }
+  .btn-delete:hover {
+    cursor: pointer;
+    background-color: lightseagreen;
+  }
+#btn-enter{
+    border: none;
+    background-color: #e31746;
+    color: white;
+    font-weight: bold;
+    outline: none;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    width: 19%;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: rgb(60, 90, 117);
+    width: 4rem;
+}
+  
+  .empty {
+    color: darkslategrey;
+  }
+  
+.boton1 {
+    width: 4rem;
+    cursor: pointer;
+    height: 2rem;
+    border: none;
+    border-radius: 0.2rem;
+}
+.boton2 {
+    width: 6rem;
+    cursor: pointer;
+    height: 2rem;
+    border: none;
+    border-radius: 0.2rem;
+}
+.boton3 {
+    width: 7rem;
+    cursor: pointer;
+    height: 2rem;
+    border: none;
+    border-radius: 0.2rem;
+}
+#botones {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    height: 5rem;
+    gap: 0.5rem;
+    border-top: 0.1rem solid;
+}
+h3 {
+    margin: 0;
+    color: rgb(61, 94, 122);
+    font-size: 0.7rem;
+}
+
+.line-through {
+    text-decoration: line-through;
+    color: black;
+}
+
+@media (min-width: 570px) {
+    nav {
+        padding-top: 6rem;
+    }
+    h1 {
+        font-size: 5.5rem;
+    }
+    h2 {
+        font-size: 1.5rem;
+    }
+    h3 {
+        font-size: 1rem;
+    }
+    #listado1 {
+        height: 4rem;
+    }
+    #listado2 {
+        height: 4rem;
+    }
+    form {
+        height: 4rem;
+    }
+    #botones {
+        height: 4rem;
+    }
+    .area-suma {
+        height: 3rem;
+    }
+    .check {
+        height: 3rem;
+    }
+    .check2 {
+        height: 3rem;
+    }
+    button {
+        height: 3rem;
+        border: none;
+        border-radius: 0.7rem;
+    }
+    .lista1 {
+        padding-right: 8.4rem;
+        padding-left: 1rem;
+    }
+    ul {
+        overflow: auto;
+        height: 17rem;
+    }
+}
